@@ -3,16 +3,26 @@
   <head>
     <title>황지훈의 웹사이트</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <h1><a href="index.html">WEB</a></h1>
-    <ol>
-      <li><a href="1.html">HTML</a></li>
-      <li><a href="2.html">CSS</li></a>
-      <li><a href="3.html">JAVASCRIPT</a></li>
-    </ol>
-    <h2>웹의 3요소</h2>
-      <p>웹의 3요소는 웹 표준, 웹 접근성, 웹 호환성</p>
-      <img src="kfc.jpg" width="15%"> 내가 먹고싶은 햄버거
+
+    <div id="grid">
+      <ol>
+        <li><a href="1.html" class="saw">HTML</a></li>
+        <li><a href="2.html" class="saw" id="active">CSS</a></li>
+        <li><a href="3.html">JAVASCRIPT</a></li>
+      </ol>
+
+      <div id="article">
+        <h2>웹의 3요소 무엇인가</h2>
+            <p>웹의 3요소는 웹 표준, 웹 호환성, 웹 접근성
+            </p>
+            <img src="kfc.jpg" width="10%"> 내가 먹고싶은 햄버거
+        먹고싶으면 체크 >>> <input type = "checkbox">
+      </div>
+    </div>
   </body>
 </html>
